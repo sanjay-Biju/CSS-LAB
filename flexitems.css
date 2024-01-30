@@ -1,0 +1,42 @@
+.main-container{
+		height:600px;
+ 		border:6px solid  black;
+			
+
+}
+
+.container{
+
+		width:100%;
+		display:flex;
+		
+	}
+.item1{
+		width:200px;
+		height:30px;
+		border:1px solid black; 
+                
+		
+	}
+.item2{
+		width:200px;
+		height:30px;
+		border:1px solid black;
+		flex-grow:4;
+		
+		
+		
+	}
+.item3{
+		width:200px;
+		height:30px;
+		border:1px solid black;
+flex-grow:2;
+		
+	
+	}
+.item4{
+		width:200px;
+		height:30px;
+		border:1px solid black;
+	}

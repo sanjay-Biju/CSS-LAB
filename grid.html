@@ -1,0 +1,67 @@
+<html>
+	<head>
+		<title>gridsample</title>
+		<style>
+			.container{
+					width:100%;
+					height:100%;
+					border:1px solid black;
+					display:grid;
+					
+					grid-template-areas:	'myarea4 myarea4 myarea4 myarea4'
+							   	'myarea3 myarea2 myarea2 myarea2'
+								'myarea3 myarea2 myarea2 myarea2'
+								'myarea3 myarea1 myarea1 myarea1';
+					}
+
+
+			.item1{
+					
+					border:2px solid black;
+					display:grid;
+					//justify-content:center;
+					//align-content:center;
+					//align-item:stretch;
+					grid-area:myarea1;
+					}
+			.item2{
+					
+					border:2px solid black;
+					display:grid;
+					//justify-content:center;
+					//align-content:center;
+					//align-item:stretch;
+					grid-area:myarea2;
+					grid-row-start;
+					}
+			.item3{
+					
+					border:2px solid black;
+					display:grid;
+					//justify-content:center;
+					//align-content:center;
+					//align-item:stretch;
+					grid-area:myarea3;
+
+					}
+			.item4{
+					
+					border:2px solid black;
+					display:grid;
+					//justify-content:center;
+					//align-content:center;
+					//align-item:stretch;
+					grid-area:myarea4;
+					}
+		</style>
+	</head>
+<body>
+	<div class="container">
+		<div class="item1">1</div>
+		<div class="item2">2</div>
+		<div class="item3">3</div>
+		<div class="item4">4</div>
+	
+	</div>
+</body>
+</html>
